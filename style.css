@@ -727,17 +727,20 @@
                   padding-left:0;
                   list-style:none;
                   
+                  
                 }
                 .footer-links li
                 {
                   display:block;
                   padding-top:10px;
+                  transition: 0.3s;
                 }
                 
-                .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+                .footer-links li:hover
                 {
-                  color:#3366cc;
-                  text-decoration:none;
+                  color:#cc334a;
+                  transform: scale(1.05);
+                  
                 }
                 .footer-links.inline li
                 {
